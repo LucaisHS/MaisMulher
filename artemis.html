@@ -3,72 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Exemplo</title>
+    <title>+ Mulher - Associação Artemis</title>
     <link href="./dist/style.css" rel="stylesheet"> 
+    <style>
+        /* Configuração de layout flexível para manter o footer na parte inferior */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        main {
+            flex: 1;
+        }
+    </style>
 </head>
 <body class="bg-white">
 
-    <header class="flex items-center justify-between p-4 bg-[#00969E]">
-        <button class="text-white bg-transparent border-2 border-white px-4 py-2 rounded hover:bg-white hover:text-[#00969E] transition duration-300">
-            Menu
-        </button>
-        <h1 class="text-white text-center flex-grow">+ Mulher</h1>
-        <div class="w-10"></div> 
+    <!-- Cabeçalho -->
+    <header class="p-4 bg-[#00969E] text-white text-center">
+        <h1 class="text-xl font-bold">+ Mulher</h1>
     </header>
 
-<div class="max-w-md mx-auto my-8 p-4 bg-white rounded-lg">
+    <!-- Conteúdo Principal -->
+    <main class="container mx-auto p-4">
+        <div class="max-w-md mx-auto my-8 p-4 bg-white rounded-lg">
+            <h1 class="text-[#66BCC0] mb-4">Associação Artemis</h1>
+            <p>
+                A Associação Artemis é uma organização dedicada ao enfrentamento da violência contra a mulher, oferecendo apoio e 
+                encaminhamento jurídico para mulheres que enfrentam situações de violência e discriminação. Além de assistência 
+                jurídica, a Artemis promove programas educativos que visam conscientizar sobre direitos e segurança, buscando 
+                empoderar as mulheres e fortalecer sua autonomia.
+            </p>
 
-    <h1 class="text-[#66BCC0] mb-4">Associação Artemis</h1>
-
-    <p>
-        A Associação Artemis é uma organização dedicada ao enfrentamento da violência contra a mulher, oferecendo apoio e 
-        encaminhamento jurídico para mulheres que enfrentam situações de violência e discriminação. Além de assistência 
-        jurídica, a Artemis promove programas educativos que visam conscientizar sobre direitos e segurança, buscando 
-        empoderar as mulheres e fortalecer sua autonomia.
-    </p>
-
-    <h2 class="text-[#66BCC0] mt-8 mb-4">Como acessar?</h2>
-
-    <p>
-        Como acessar os serviços da Associação Artemis
-        Para obter apoio ou participar dos programas oferecidos pela Artemis, você pode entrar em contato diretamente por meio dos seguintes canais:
-
-        Site Oficial: <a href="https://www.atados.com.br/ong/artemis">www.atados.com.br/ong/artemis</a>
-        E-mail: contato@artemis.org.br
-        Telefone: (11) 3230-0607    
-    </p>
-
-</div>
-
-            
-
-
-<footer class="bg-[#00969E] text-white py-8">
-    <div class="ml-[5%]">
-
-        <p class="text-lg font-semibold mb-4">Feito por:</p>
-        
-        <div class="flex space-x-8">
-            <div class="flex flex-col space-y-2">
-                <span class="font-normal">Nome1</span>
-                <span class="font-normal">Nome2</span>
-                <span class="font-normal">Nome3</span>
-                <span class="font-normal">Nome4</span>
-            </div>
-            <div class="flex flex-col space-y-2">
-                <span class="font-normal">Nome5</span>
-                <span class="font-normal">Nome6</span>
-                <span class="font-normal">Nome7</span>
-                <span class="font-normal">Nome8</span>
-            </div>
+            <h2 class="text-[#66BCC0] mt-8 mb-4">Como acessar?</h2>
+            <p>
+                Para obter apoio ou participar dos programas oferecidos pela Artemis, você pode entrar em contato diretamente por meio dos seguintes canais:
+            </p>
+            <ul class="list-disc pl-5 mt-2">
+                <li>Site Oficial: <a href="https://www.atados.com.br/ong/artemis" class="text-[#FF6961]" target="_blank">www.atados.com.br/ong/artemis</a></li>
+                <li>E-mail: <a href="mailto:contato@artemis.org.br" class="text-[#FF6961]">contato@artemis.org.br</a></li>
+                <li>Telefone: (11) 3230-0607</li>
+            </ul>
         </div>
+    </main>
 
-        <p class="text-sm mt-6">&copy; 2024. Todos os direitos reservados.</p>
-    </div>
-</footer>
-
-
-    
+    <footer class="bg-[#00969E] text-white py-8 w-full">
+        <div class="ml-[5%]">
+            <p class="text-lg font-semibold mb-4">Feito por:</p>
+            <div class="flex space-x-8">
+                <div class="flex flex-col space-y-2 w-1/2">
+                    <span class="font-normal">André Cristiano Dias Raymundo</span>
+                    <span class="font-normal">Diego Leme Pires</span>
+                    <span class="font-normal">Esdras Vinicius Leite Teixeira De Almeida</span>
+                    <span class="font-normal">Joziel De Jesus Souza</span>
+                </div>
+                <div class="flex flex-col space-y-2 w-1/2">
+                    <span class="font-normal">Julia Soares Campi</span>
+                    <span class="font-normal">Leticia Guarnieri Dos Santos</span>
+                    <span class="font-normal">Lucas Henrique Soares</span>
+                    <span class="font-normal">Stephany Palharin</span>
+                </div>
+            </div>
+            <p class="text-sm mt-6">&copy; 2024. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
 </html>

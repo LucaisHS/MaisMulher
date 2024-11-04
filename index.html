@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>+ Mulher</title>
     <link href="./dist/style.css" rel="stylesheet"> 
+    <style>
+        /* Configuração do layout com Flexbox */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        main {
+            flex: 1; /* Faz o main ocupar o espaço restante */
+        }
+    </style>
 </head>
 <body class="bg-white">
 
@@ -13,133 +25,102 @@
     </header>
 
     <main class="container mx-auto p-4">
+        <!-- Conteúdo principal da página -->
 
-    
+        <div class="max-w-md mx-auto my-8 p-4 bg-white rounded-lg">
+            <section class="flex items-center space-x-4">
+                <img src="./img/imgTitulo.jpg" alt="Imagem Circular" class="bg-gray-300 rounded-full w-24 h-24 object-cover flex-shrink-0">
+                <div>
+                    <h1 class="text-[#FF6961] text-3xl font-bold">+ Mulher</h1>
+                    <p class="text-gray-600 mt-2 text-sm">
+                        Olá bem-vinda a + Mulher, por aqui voce pode ter acesso ao arsenal de serviços pró-mulheres, com o 
+                        intuito de ajuda-la em vários aspectos de sua vida!
+                    </p>
+                </div>
+            </section>
 
-      
-    <div class="max-w-md mx-auto my-8 p-4 bg-white rounded-lg">
+            <br>
+            <hr>
 
-        
-        <section class="flex items-center space-x-4">
-            
-            <img src="./img/imgTitulo.jpg" alt="Imagem Circular" class="bg-gray-300 rounded-full w-24 h-24 object-cover flex-shrink-0">
-
-
-           
-            <div>
-                <h1 class="text-[#FF6961] text-3xl font-bold">+ Mulher</h1>
-                <p class="text-gray-600 mt-2 text-sm">
-                    Olá bem-vinda a + Mulher, por aqui voce pode ter acesso ao arsenal de serviços pró-mulheres, com o 
-                    intuito de ajuda-la em vários aspectos de sua vida!
-                </p>
-            </div>
-        </section>
-
-        <br>
-        <hr>
-
-        <a href="./precisoDeAjuda.html">
-            <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
-                
-                <div class="flex items-start">
-                   
-                    <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
-                    
-                    <div class="flex-grow">
-                        <h1 class="text-[#66BCC0] text-2xl font-bold">Preciso de Ajuda</h1>
-                        <p class="text-gray-600 mt-2 text-sm">
-                            Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
-                        </p>
+            <!-- Seções com links -->
+            <a href="./precisoDeAjuda.html">
+                <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
+                    <div class="flex items-start">
+                        <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
+                        <div class="flex-grow">
+                            <h1 class="text-[#66BCC0] text-2xl font-bold">Preciso de Ajuda</h1>
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
+            </a>
 
-        <a href="./servicosONGs.html">
-            <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
-                <div class="flex items-start">
-                    <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
-                    
-                    
-                    <div class="flex-grow">
-                        <h1 class="text-[#66BCC0] text-2xl font-bold">Serviços e ONGs</h1>
-                        <p class="text-gray-600 mt-2 text-sm">
-                            Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
-                        </p>
+            <a href="./servicosONGs.html">
+                <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
+                    <div class="flex items-start">
+                        <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
+                        <div class="flex-grow">
+                            <h1 class="text-[#66BCC0] text-2xl font-bold">Serviços e ONGs</h1>
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
+            </a>
 
-        <a href="./juridico.html">
-            <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
-                
-                <div class="flex items-start">
-                    
-                    <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
-                    
-                    
-                    <div class="flex-grow">
-                        <h1 class="text-[#66BCC0] text-2xl font-bold">Juridico</h1>
-                        <p class="text-gray-600 mt-2 text-sm">
-                            Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
-                        </p>
+            <a href="./juridico.html">
+                <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
+                    <div class="flex items-start">
+                        <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
+                        <div class="flex-grow">
+                            <h1 class="text-[#66BCC0] text-2xl font-bold">Juridico</h1>
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
+            </a>
 
-        <a href="./inclusao.html">
-            <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
-               
-                <div class="flex items-start">
-                    
-                    <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
-                    
-                    
-                    <div class="flex-grow">
-                        <h1 class="text-[#66BCC0] text-2xl font-bold">Inclusão</h1>
-                        <p class="text-gray-600 mt-2 text-sm">
-                            Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
-                        </p>
+            <a href="./inclusao.html">
+                <div class="max-w-md mx-auto my-8 p-4 border-2 border-black rounded-lg">
+                    <div class="flex items-start">
+                        <div class="bg-gray-300 w-[35%] h-full mx-[5%]"></div>
+                        <div class="flex-grow">
+                            <h1 class="text-[#66BCC0] text-2xl font-bold">Inclusão</h1>
+                            <p class="text-gray-600 mt-2 text-sm">
+                                Este é um texto complementar abaixo do título. Ele pode ser expandido para fornecer informações adicionais sobre o conteúdo apresentado.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
-
-    </div>
-
-</main>
-
-
-<footer class="bg-[#00969E] text-white py-8">
-    <div class="ml-[5%]">
-        
-        <p class="text-lg font-semibold mb-4">Feito por:</p>
-        
-        
-        <div class="flex space-x-8">
-            <div class="flex flex-col space-y-2 w-1/2">
-                <span class="font-normal">André Cristiano Dias Raymundo</span>
-                <span class="font-normal">Diego Leme Pires</span>
-                <span class="font-normal">Esdras Vinicius Leite Teixeira De Almeida</span>
-                <span class="font-normal">Joziel De Jesus Souza</span>
-            </div>
-            <div class="flex flex-col space-y-2 w-1/2">
-                <span class="font-normal">Julia Soares Campi</span>
-                <span class="font-normal">Leticia Guarnieri Dos Santos</span>
-                <span class="font-normal">Lucas Henrique Soares</span>
-                <span class="font-normal">Stephany Palharin</span>
-            </div>
+            </a>
         </div>
+    </main>
 
-        
-        <p class="text-sm mt-6">&copy; 2024. Todos os direitos reservados.</p>
-    </div>
-</footer>
-
-
-    
+    <footer class="bg-[#00969E] text-white py-8 w-full">
+        <div class="ml-[5%]">
+            <p class="text-lg font-semibold mb-4">Feito por:</p>
+            <div class="flex space-x-8">
+                <div class="flex flex-col space-y-2 w-1/2">
+                    <span class="font-normal">André Cristiano Dias Raymundo</span>
+                    <span class="font-normal">Diego Leme Pires</span>
+                    <span class="font-normal">Esdras Vinicius Leite Teixeira De Almeida</span>
+                    <span class="font-normal">Joziel De Jesus Souza</span>
+                </div>
+                <div class="flex flex-col space-y-2 w-1/2">
+                    <span class="font-normal">Julia Soares Campi</span>
+                    <span class="font-normal">Leticia Guarnieri Dos Santos</span>
+                    <span class="font-normal">Lucas Henrique Soares</span>
+                    <span class="font-normal">Stephany Palharin</span>
+                </div>
+            </div>
+            <p class="text-sm mt-6">&copy; 2024. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
 </html>

@@ -3,85 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Exemplo</title>
-    <link href="./dist/style.css" rel="stylesheet"> 
+    <title>+ Mulher - Instituto Maria da Penha</title>
+    <link href="./dist/style.css" rel="stylesheet">
+    <style>
+        /* Configuração de layout flexível para manter o footer na parte inferior */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        main {
+            flex: 1;
+        }
+    </style>
 </head>
 <body class="bg-white">
 
-    <header class="flex items-center justify-between p-4 bg-[#00969E]">
-        <button class="text-white bg-transparent border-2 border-white px-4 py-2 rounded hover:bg-white hover:text-[#00969E] transition duration-300">
-            Menu
-        </button>
-        <h1 class="text-white text-center flex-grow">+ Mulher</h1>
-        <div class="w-10"></div> 
+    <!-- Cabeçalho -->
+    <header class="p-4 bg-[#00969E] text-white text-center">
+        <h1 class="text-xl font-bold">+ Mulher</h1>
     </header>
 
-<!-- Div Centralizada com Margem -->
-<div class="max-w-md mx-auto my-8 p-4 bg-white rounded-lg">
+    <!-- Conteúdo Principal -->
+    <main class="container mx-auto p-4">
+        <div class="max-w-md mx-auto my-8 p-4 bg-white rounded-lg">
+            <h1 class="text-[#66BCC0] mb-4">Instituto Maria da Penha (IMP)</h1>
+            <p>
+                O Instituto Maria da Penha (IMP) é uma organização não governamental sem fins lucrativos. Seu surgimento está diretamente ligado à história de vida de Maria da Penha, que se tornou um símbolo de luta no combate à violência doméstica contra a mulher.
+            </p>
+            <p>
+                O IMP tem como objetivo contribuir e fortalecer mecanismos para coibir e prevenir a violência doméstica e familiar contra a mulher, conforme o art. 1º da Lei n. 11.340/2006. Além disso, o instituto promove e apoia ações sociais que elevem o nível de qualidade de vida física, emocional e intelectual das mulheres, contribui para reduzir a indiferença e a banalização das questões de gênero, e incentiva o debate sobre cidadania, justiça e geração de renda para a mulher e sua família.
+            </p>
 
-    <h1 class="text-[#66BCC0] mb-4">Instituto Maria da Penha (IMP)</h1>
-
-    <p>
-        Instituto Maria da Penha (IMP) é uma organização não governamental sem fins lucrativos.
-        O seu surgimento está diretamente ligado à história de vida de Maria da Penha, que se tornou um símbolo de luta no 
-        combate à violência doméstica contra a mulher.
-        O Instituto Maria da Penha tem como objetivo contribuir e fortalecer mecanismos para coibir e prevenir a violência 
-        doméstica e familiar contra a mulher, conforme o
-        art. 1º da Lei n. 11.340/2006. Para isso, contam com o apoio da sociedade civil organizada e de instituições 
-        comprometidas com o seu papel de transformador social.
-        Além disso, o instituto também promove e apoia ações sociais que elevem o nível de qualidade da vida física, 
-        emocional e intelectual das mulheres, contribui para diminuir as ações de indiferença, banalização e omissão nas 
-        questões de gênero, as quais reforçam a cultura da violência contra a mulher, desenvolve um trabalho estratégico de 
-        conscientização sobre os conceitos ligados à cultura de gênero e violência sexista, bem como incentivar o debate para 
-        promoção de investimento social capaz de garantir os direitos de cidadania, justiça, trabalho, emprego e geração de 
-        renda da mulher e da família.
-    </p>
-
-    <h2 class="text-[#66BCC0] mt-8 mb-4">Como acessar?</h2>
-
-    <p>
-        <a href="https://www.institutomariadapenha.org.br/">Site Oficial: Acesse o site do IMP para obter informações detalhadas sobre os projetos, serviços e formas de contato.</a>
-
-        E-mail: Para mais informações ou para contratar os serviços oferecidos, envie um e-mail para atendimento@institutomariadapenha.org.br. 
-
-        Telefone: Entre em contato pelos números +55 85 4102 5429 ou +55 85 98897 6096. 
-
-        Redes Sociais: O IMP está presente em diversas plataformas de redes sociais, onde compartilha atualizações sobre seus projetos e campanhas.
-    </p>
-
-</div>
-
-            
-
-<!-- Footer com Créditos e Direitos Autorais -->
-<footer class="bg-[#00969E] text-white py-8">
-    <div class="ml-[5%]">
-        <!-- Texto com Créditos -->
-        <p class="text-lg font-semibold mb-4">Feito por:</p>
-        
-        <!-- Nomes em Duas Colunas -->
-        <div class="flex space-x-8">
-            <div class="flex flex-col space-y-2">
-                <span class="font-normal">Nome1</span>
-                <span class="font-normal">Nome2</span>
-                <span class="font-normal">Nome3</span>
-                <span class="font-normal">Nome4</span>
-            </div>
-            <div class="flex flex-col space-y-2">
-                <span class="font-normal">Nome5</span>
-                <span class="font-normal">Nome6</span>
-                <span class="font-normal">Nome7</span>
-                <span class="font-normal">Nome8</span>
-            </div>
+            <h2 class="text-[#66BCC0] mt-8 mb-4">Como acessar?</h2>
+            <p><strong>Site Oficial:</strong> <a href="https://www.institutomariadapenha.org.br/" class="text-[#FF6961]" target="_blank">www.institutomariadapenha.org.br</a></p>
+            <p><strong>E-mail:</strong> <a href="mailto:atendimento@institutomariadapenha.org.br" class="text-[#FF6961]">atendimento@institutomariadapenha.org.br</a></p>
+            <p><strong>Telefone:</strong> +55 85 4102 5429 / +55 85 98897 6096</p>
+            <p><strong>Redes Sociais:</strong> O IMP está presente em diversas plataformas sociais, onde compartilha atualizações sobre projetos e campanhas.</p>
         </div>
+    </main>
 
-        <!-- Direitos Autorais -->
-        <p class="text-sm mt-6">&copy; 2024. Todos os direitos reservados.</p>
-    </div>
-</footer>
-
-
-    
+    <footer class="bg-[#00969E] text-white py-8 w-full">
+        <div class="ml-[5%]">
+            <p class="text-lg font-semibold mb-4">Feito por:</p>
+            <div class="flex space-x-8">
+                <div class="flex flex-col space-y-2 w-1/2">
+                    <span class="font-normal">André Cristiano Dias Raymundo</span>
+                    <span class="font-normal">Diego Leme Pires</span>
+                    <span class="font-normal">Esdras Vinicius Leite Teixeira De Almeida</span>
+                    <span class="font-normal">Joziel De Jesus Souza</span>
+                </div>
+                <div class="flex flex-col space-y-2 w-1/2">
+                    <span class="font-normal">Julia Soares Campi</span>
+                    <span class="font-normal">Leticia Guarnieri Dos Santos</span>
+                    <span class="font-normal">Lucas Henrique Soares</span>
+                    <span class="font-normal">Stephany Palharin</span>
+                </div>
+            </div>
+            <p class="text-sm mt-6">&copy; 2024. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
