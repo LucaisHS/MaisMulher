@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main cresce para ocupar o espaço disponível */
+main {
+    flex: 1;
+}
+
+/* Footer fixo na parte inferior */
+footer {
+    width: 100%;
+    bottom: 0;
+}
